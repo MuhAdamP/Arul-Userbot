@@ -5,6 +5,7 @@ Semangat🔥💪
 
 
 
+## Disclaimer
 
 ```
 Saya tidak bertanggung jawab atas penyalahgunaan bot ini.
