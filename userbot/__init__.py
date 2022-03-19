@@ -203,7 +203,7 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "𝙷𝙴𝚈, 𝚂𝙰𝚈𝙰 𝙿𝙴𝙽𝙶𝙶𝚄𝙽𝙰 𝙰𝚁𝚄𝙻-𝚄𝚂𝙴𝚁𝙱𝙾𝚃")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "muhadamp")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "Arul")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✧")
