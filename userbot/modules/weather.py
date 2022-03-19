@@ -35,7 +35,7 @@ async def get_tz(con):
         return
 
 
-@arul_cmd(pattern="weather(?: |$)(.*)")
+@ayiin_cmd(pattern="weather(?: |$)(.*)")
 async def get_weather(weather):
     if not OWM_API:
         return await weather.edit(
