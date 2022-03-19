@@ -1,11 +1,11 @@
-FROM muhadamp/Arul-userbot:buster
+FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Arul-Userbot https://github.com/muhadamp/Arul-Userbot /home/Aruluserbot/ \
-    && chmod 777 /home/aruluserbot \
-    && mkdir /home/aruluserbot/bin/
+RUN git clone -b Ayiin-Userbot https://github.com/AyiinXd/Ayiin-Userbot /home/ayiinuserbot/ \
+    && chmod 777 /home/ayiinuserbot \
+    && mkdir /home/ayiinuserbot/bin/
 
-COPY ./sample_config.env ./config.env* /home/aruluserbot/
+COPY ./sample_config.env ./config.env* /home/ayiinuserbot/
 
-WORKDIR /home/aruluserbot/
+WORKDIR /home/ayiinuserbot/
 
 CMD ["bash","start"]
