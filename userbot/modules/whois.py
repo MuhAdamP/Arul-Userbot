@@ -19,7 +19,7 @@ from userbot import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
 from userbot.utils import edit_or_reply, ayiin_cmd
 
 
-@arul_cmd(pattern="whois(?: |$)(.*)")
+@ayiin_cmd(pattern="whois(?: |$)(.*)")
 async def who(event):
     xx = await edit_or_reply(event, "`Mengambil Informasi Pengguna Ini...`")
     if not os.path.isdir(TEMP_DOWNLOAD_DIRECTORY):
