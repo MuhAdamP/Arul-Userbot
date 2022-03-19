@@ -8,7 +8,7 @@ from userbot import CMD_HELP
 from userbot.utils import deEmojify, edit_delete, ayiin_cmd
 
 
-@arul_cmd(pattern="waifu(?: |$)(.*)")
+@ayiin_cmd(pattern="waifu(?: |$)(.*)")
 async def waifu(animu):
     text = animu.pattern_match.group(1)
     if not text:
